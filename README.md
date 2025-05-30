@@ -26,23 +26,23 @@ Note: Due to license restrictions, the dataset is not included. Download it from
 
 ## Project Structure
 
+```plaintext
 project/
 │
-├── data/ # Dataset (not included)
+├── data/                  # Dataset (not included)
 ├── src/
-│ ├── model.py # 3D U-Net + Attention
-│ ├── data_generator.py # Data pipeline
-│ ├── train.py # Training script
-│ ├── inference.py # Prediction script
-│ └── utils.py # Evaluation and helpers
+│   ├── model.py           # 3D U-Net + Attention
+│   ├── data_generator.py  # Data pipeline
+│   ├── train.py           # Training script
+│   ├── inference.py       # Prediction script
+│   └── utils.py           # Evaluation and helpers
 ├── results/
-│ ├── predictions/ # Output predictions
-│ └── checkpoints/ # Model weights
-├── demo.ipynb # Jupyter notebook version
+│   ├── predictions/       # Output predictions
+│   └── checkpoints/       # Model weights
+├── demo.ipynb             # Jupyter notebook version
 ├── requirements.txt
 ├── README.md
 └── .gitignore
-
 
 
 ---
