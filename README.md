@@ -10,6 +10,14 @@ Brain tumor segmentation is a critical step in medical image analysis. This proj
 
 ---
 
+## 📈 Model Architecture
+
+### U-Net 3D with Spatial Attention
+![U-Net Architecture](images/3d unet structure.png)
+
+### End-to-End Workflow
+![Workflow Diagram](images/Structure flow.png)
+
 ## Dataset
 
 - Dataset: BraTS 2020
